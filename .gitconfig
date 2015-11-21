@@ -1,9 +1,9 @@
 # vim: noexpandtab sw=8
 [user]
-	name = Hyeon Kim
-	email = simnalamburt@gmail.com
+	name = Eirin
+	email = ghkdgustn29@gmail.com
 [core]
-	editor = nvim
+	editor = vim
 	pager = less -+XF -Qc
 	excludesfile = ~/.gitexclude
 	fscache = yes
@@ -31,11 +31,7 @@
 [credential]
 	helper = cache --timeout=3600
 [credential "https://github.com"]
-	username = simnalamburt
-[credential "http://git.hyeon.me"]
-	username = simnalamburt
-[credential "http://git.upnl.org"]
-	username = simnalamburt
+	username = ghkdgustn29
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean %f

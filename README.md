@@ -21,7 +21,7 @@ Requires `git` and `fish`
 
 ```bash
 cd ~
-git clone https://github.com/simnalamburt/.dotfiles.git --depth=1
+git clone https://github.com/ghkdgustn29/.dotfiles.git --depth=1
 
 # chips     https://github.com/kinoru/chips
 # vim-plug  https://github.com/junegunn/vim-plug
