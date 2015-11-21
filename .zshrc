@@ -13,6 +13,7 @@ zplug load
 # zsh-sensible
 #
 stty stop undef
+export LS_COLORS="$LS_COLORS:di=1;94"
 
 alias l='ls -lah'
 alias mv='mv -i'
