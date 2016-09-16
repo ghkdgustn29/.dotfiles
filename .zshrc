@@ -123,3 +123,8 @@ fi
 if hash cargo 2>/dev/null; then
   export PATH="$PATH:$HOME/.cargo/bin"
 fi
+
+# pyenv
+export PATH="/home/ghkdgustn29/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
